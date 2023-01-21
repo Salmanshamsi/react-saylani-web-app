@@ -1,0 +1,108 @@
+.main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,#00de76,#fffcf4);
+}
+.contanier
+{
+    height: 600px;
+    width: 800px;
+    display: flex;
+    box-shadow: 0 0 17px 10px rgb(0 0 0/30%);
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+}
+.col-a
+{
+    height: 800px;
+    width: 350px; 
+    background-image: url(imges/form-side\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: center;
+}
+.col-b
+{
+    height: 800px;
+    width: 650px; 
+    background: #00de76bb;
+    display: flex;
+    justify-content: center;
+    color: #4b4949df;
+}
+/* .login
+{
+    margin-top: 27px;
+    margin-left: -191px;
+    font-size: 50px;
+    position: relative;
+    left: 209px;
+    text-shadow:4px 4px 10px rgba(0, 0, 0, 0.614);
+} */
+.form-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp-a,.inp-b
+{
+    background-color: whitesmoke;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    /* box-shadow: 4px 4px 10px black; */
+    border-radius: 10px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    top: -100px;
+    cursor: pointer;
+}
+.inp-a:hover,.inp-b:hover
+{
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 20px rgb(105, 105, 105);
+}
+.btn-a
+{
+    height: 40px;
+    width: 120px; 
+    margin-left: 80px;
+    background: #1911ffa7; 
+    color: #00de76a7;
+    border-radius: 50px;  
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.btn-a:hover
+{
+    color: #1911ffa7;
+    background-color: #00de76a7; 
+    box-shadow: 4px 8px 20px rgb(93, 85, 85);
+}
+.a1,.a2
+{
+   font-size: 19px;
+   font-weight: 400;
+   color: black;
+   margin-top: 20px;
+   position: relative;
+   top: 30px;
+   cursor: pointer;
+}
+.a1
+{
+    margin-bottom: -20px;
+}

@@ -1,0 +1,18 @@
+.d-block
+{
+    height:600px ;
+    width: auto;
+}
+.jumb
+{
+    background-color: rgb(214, 203, 203);
+    margin: 50px auto;
+    width: 700px;
+}
+.jumbotron
+{
+    
+    height: 400px;
+    width: 700px;
+    padding: 50px;
+}
